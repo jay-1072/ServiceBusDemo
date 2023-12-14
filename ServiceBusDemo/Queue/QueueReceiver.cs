@@ -10,8 +10,8 @@ namespace ServiceBusDemo.Queue
 {
     public static class QueueReceiver
     {
-        private static string _namespaceConnectionString = "Endpoint=sb://demo-jay-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=5uJ/7MM6d4MZQlEYDn11RMMRO62Kj33aT+ASbCgq3dY=";
-        private static string _queueName = "myqueue";
+        private static string _namespaceConnectionString = "your service bus connection string";
+        private static string _queueName = "your queue name";
 
         public static async Task ReceiveMessages()
         {
